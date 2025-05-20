@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #################################################
-# 描述: OpenWRT 官方sing-box 全自动脚本
-# 版本: 2.1.0
+# 描述: OpenWRT 官方mihomo 全自动脚本
+# 版本: 1.0
 #################################################
 
 # 定义颜色
@@ -13,7 +13,7 @@ RED='\033[0;31m'
 NC='\033[0m' # 无颜色
 
 # 脚本下载目录和初始化标志文件
-SCRIPT_DIR="/etc/sing-box/scripts"
+SCRIPT_DIR="/etc/mihomo/scripts"
 INITIALIZED_FILE="$SCRIPT_DIR/.initialized"
 
 mkdir -p "$SCRIPT_DIR"
