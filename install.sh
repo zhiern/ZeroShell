@@ -1,7 +1,7 @@
 #! /bin/bash
 # Copyright (C) ZeroShell Project
 
-[ -z "$url" ] && url="https://fastly.jsdelivr.net/gh/oppen321/ZeroShell@master"
+[ -z "$url" ] && url="https://fastly.jsdelivr.net/gh/zhiern/ZeroShell@master"
 type bash &>/dev/null && shtype=bash || shtype=sh
 echo='echo -e'
 [ -n "$(echo -e | grep e)" ] && {
